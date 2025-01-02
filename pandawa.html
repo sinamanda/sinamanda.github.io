@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Pantai Pandawa, surga tersembunyi di Bali dengan keindahan alam dan nilai budaya yang memukau. Temukan aktivitas seru dan daya tarik unik di sini.">
+    <title>Pantai Pandawa - Surga Tersembunyi di Bali</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #eef2f3, #ffffff);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            animation: fadeInDown 2s;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+            transform: scale(1.1);
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .main-content {
+            background: #fff;
+            padding: 2rem;
+            margin: 1rem 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        .main-content h1 {
+            color: #4CAF50;
+            font-size: 2rem;
+        }
+
+        .image {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.5s, box-shadow 0.3s;
+        }
+
+        .image img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .interactive-section {
+            margin: 2.5rem 0;
+        }
+
+        .interactive-section h2 {
+            text-align: center;
+            color: #2E7D32;
+            font-size: 1.8rem;
+        }
+
+        .form-section {
+            text-align: center;
+        }
+
+        .form-section input,
+        .form-section textarea {
+            width: 80%;
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .form-section button {
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
+            color: #fff;
+            border: none;
+            padding: 0.8rem 2.5rem;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .form-section button:hover {
+            background: #45a049;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            background: #2E7D32;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 1.5rem;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer a {
+            color: #81C784;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            color: #388E3C;
+            font-weight: bold;
+        }
+
+        .fact-box {
+            background: #e8f5e9;
+            border-left: 6px solid #4CAF50;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-in;
+        }
+
+        .fact-box h2 {
+            color: #2E7D32;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Pantai Pandawa: Surga Tersembunyi di Bali</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang Pantai</a>
+        <a href="#activities">Aktivitas</a>
+        <a href="#facilities">Fasilitas</a>
+        <a href="#facts">Fakta Menarik</a>
+    </nav>
+
+    <div class="container">
+        <div id="about" class="main-content">
+            <h1>Tentang Pantai Pandawa</h1>
+            <p>
+                Terletak di desa Kutuh, Kuta Selatan, Bali, <span class="highlight">Pantai Pandawa</span> adalah salah
+                satu objek wisata terkenal yang menarik perhatian wisatawan lokal maupun mancanegara. Pantai ini dikenal
+                sebagai "Pantai Rahasia" karena dikelilingi oleh dua tebing kapur yang megah, dihiasi patung-patung
+                tokoh Mahabharata seperti Yudhistira, Bima, Arjuna, Nakula, Sadewa, dan Dewi Kunti. Patung-patung ini
+                tidak hanya mempercantik pemandangan tetapi juga memberikan wawasan budaya yang unik.
+            </p>
+            <p>
+                Waktu terbaik untuk mengunjungi Pantai Pandawa adalah pagi hari ketika matahari terbit, memberikan
+                pemandangan spektakuler dengan cahaya lembut menyinari tebing-tebing kapur. Sore hari juga menarik
+                dengan warna matahari terbenam yang memukau. Suasananya sangat cocok untuk bersantai atau berjalan-jalan
+                santai di pasir putih yang lembut.
+            </p>
+            <div class="image">
+                <img src="pantai-pandawa.jpg" alt="Keindahan Pantai Pandawa">
+            </div>
+        </div>
+
+        <div id="activities" class="main-content">
+            <h1>Aktivitas di Pantai Pandawa</h1>
+            <ul>
+                <li><b>Berenang:</b> Nikmati air laut yang tenang dan jernih untuk berenang.</li>
+                <li><b>Snorkeling:</b> Eksplorasi biota laut yang indah dan terumbu karang unik.</li>
+                <li><b>Paddleboarding:</b> Berlatih keseimbangan sambil menikmati pemandangan spektakuler.</li>
+                <li><b>Paralayang:</b> Rasakan sensasi terbang dari Bukit Timbis
+                <li><b>Berjalan-jalan:</b> Nikmati waktu santai berjalan di sepanjang pantai yang indah dan pasir putih
+                    yang halus.</li>
+                <li><b>Fotografi:</b> Abadikan momen keindahan alam dengan latar belakang tebing-tebing kapur dan
+                    patung-patung Mahabharata.</li>
+            </ul>
+        </div>
+
+        <div id="facilities" class="main-content">
+            <h1>Fasilitas di Pantai Pandawa</h1>
+            <ul>
+                <li><b>Kamar Mandi Umum:</b> Fasilitas kamar mandi bersih dan nyaman untuk pengunjung.</li>
+                <li><b>Warung Makan:</b> Tersedia berbagai makanan dan minuman lokal yang lezat untuk dinikmati sambil
+                    menikmati pemandangan.</li>
+                <li><b>Parkir:</b> Area parkir yang luas dan aman untuk kendaraan pribadi dan bus wisata.</li>
+                <li><b>Tempat Duduk:</b> Tersedia kursi dan payung di sepanjang pantai untuk kenyamanan pengunjung.</li>
+                <li><b>Guider Lokal:</b> Menyediakan pemandu wisata lokal yang dapat memberikan informasi mengenai
+                    sejarah dan budaya setempat.</li>
+            </ul>
+        </div>
+
+        <div id="facts" class="fact-box">
+            <h2>Fakta Menarik Tentang Pantai Pandawa</h2>
+            <ul>
+                <li><b>Sejarah:</b> Pantai Pandawa dulunya dikenal sebagai pantai yang tersembunyi, namun kini telah
+                    menjadi destinasi wisata utama di Bali.</li>
+                <li><b>Patung Mahabharata:</b> Patung-patung tokoh Mahabharata yang terukir di tebing kapur menjadi daya
+                    tarik utama di pantai ini.</li>
+                <li><b>Lokasi:</b> Pantai ini terletak sekitar 30 menit dari Bandara Internasional Ngurah Rai, Bali.
+                </li>
+            </ul>
+        </div>
+
+
+
+        <footer>
+            <p>&copy; 2025 Pantai Pandawa. Semua Hak Cipta Dilindungi.</p>
+            <p>Temukan lebih lanjut tentang destinasi wisata di <a href="https://www.balitourism.com"
+                    target="_blank">Bali
+                    Tourism</a>.</p>
+        </footer>
+</body>
+
+</html>
